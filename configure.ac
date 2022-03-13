@@ -123,7 +123,7 @@ case $host in
 	backend=windows
 	platform=windows
 	test "x$enable_shared" = xyes && create_import_lib=yes
-	EXTRA_CFLAGS="-mwin32 -fno-omit-frame-pointer"
+	EXTRA_CFLAGS="-fno-omit-frame-pointer"
 	EXTRA_LDFLAGS="-static-libgcc"
 	;;
 *)
